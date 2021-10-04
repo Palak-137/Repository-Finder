@@ -12,13 +12,13 @@ You can also visit the profile of the user owning the repo. Not only this, you c
 
 ![image](https://user-images.githubusercontent.com/54790525/135834109-cf18fc41-f9f7-48f7-88e9-709742d8565d.png)
 
-
+<hr/>
 
 ![image](https://user-images.githubusercontent.com/54790525/135834219-19f4eac6-9726-46bb-bd2f-7a1e041eda05.png)
 
 
-
-##### Give it a star 🌟 if you like it
+<hr/>
+### Give it a star 🌟 if you like it
 
 
 
