@@ -1,20 +1,20 @@
 {
   "files": {
-    "main.css": "/Palak-137/Repository-Finder/static/css/main.b36c9794.chunk.css",
-    "main.js": "/Palak-137/Repository-Finder/static/js/main.884e4b85.chunk.js",
-    "main.js.map": "/Palak-137/Repository-Finder/static/js/main.884e4b85.chunk.js.map",
-    "runtime-main.js": "/Palak-137/Repository-Finder/static/js/runtime-main.4d39e233.js",
-    "runtime-main.js.map": "/Palak-137/Repository-Finder/static/js/runtime-main.4d39e233.js.map",
-    "static/js/2.0dd79efd.chunk.js": "/Palak-137/Repository-Finder/static/js/2.0dd79efd.chunk.js",
-    "static/js/2.0dd79efd.chunk.js.map": "/Palak-137/Repository-Finder/static/js/2.0dd79efd.chunk.js.map",
-    "static/js/3.48da2132.chunk.js": "/Palak-137/Repository-Finder/static/js/3.48da2132.chunk.js",
-    "static/js/3.48da2132.chunk.js.map": "/Palak-137/Repository-Finder/static/js/3.48da2132.chunk.js.map",
-    "index.html": "/Palak-137/Repository-Finder/index.html",
-    "static/css/main.b36c9794.chunk.css.map": "/Palak-137/Repository-Finder/static/css/main.b36c9794.chunk.css.map",
-    "static/js/2.0dd79efd.chunk.js.LICENSE.txt": "/Palak-137/Repository-Finder/static/js/2.0dd79efd.chunk.js.LICENSE.txt"
+    "main.css": "/Repository-Finder/static/css/main.b36c9794.chunk.css",
+    "main.js": "/Repository-Finder/static/js/main.884e4b85.chunk.js",
+    "main.js.map": "/Repository-Finder/static/js/main.884e4b85.chunk.js.map",
+    "runtime-main.js": "/Repository-Finder/static/js/runtime-main.a22810c1.js",
+    "runtime-main.js.map": "/Repository-Finder/static/js/runtime-main.a22810c1.js.map",
+    "static/js/2.0dd79efd.chunk.js": "/Repository-Finder/static/js/2.0dd79efd.chunk.js",
+    "static/js/2.0dd79efd.chunk.js.map": "/Repository-Finder/static/js/2.0dd79efd.chunk.js.map",
+    "static/js/3.48da2132.chunk.js": "/Repository-Finder/static/js/3.48da2132.chunk.js",
+    "static/js/3.48da2132.chunk.js.map": "/Repository-Finder/static/js/3.48da2132.chunk.js.map",
+    "index.html": "/Repository-Finder/index.html",
+    "static/css/main.b36c9794.chunk.css.map": "/Repository-Finder/static/css/main.b36c9794.chunk.css.map",
+    "static/js/2.0dd79efd.chunk.js.LICENSE.txt": "/Repository-Finder/static/js/2.0dd79efd.chunk.js.LICENSE.txt"
   },
   "entrypoints": [
-    "static/js/runtime-main.4d39e233.js",
+    "static/js/runtime-main.a22810c1.js",
     "static/js/2.0dd79efd.chunk.js",
     "static/css/main.b36c9794.chunk.css",
     "static/js/main.884e4b85.chunk.js"
