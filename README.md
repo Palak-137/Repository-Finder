@@ -8,6 +8,17 @@ You can also visit the profile of the user owning the repo. Not only this, you c
 3. [React-beautiful-dnd](https://github.com/atlassian/react-beautiful-dnd/blob/master/README.md#documentation-)
 
 
+
+
+## How to run?
+1. git clone https://github.com/Palak-137/Repository-Finder.git
+2. cd Repository-Finder
+3. Run `npm i` in your terminal
+4. Then run `npm run`
+
+
+
+
 ## Some glimpse of project
 
 ![image](https://user-images.githubusercontent.com/54790525/135834109-cf18fc41-f9f7-48f7-88e9-709742d8565d.png)
