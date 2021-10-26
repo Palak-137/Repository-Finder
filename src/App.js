@@ -53,7 +53,9 @@ function App() {
   const [data, setData] = useState([]);
   const [search, setSearch] = useState('')
   const [characters, updateCharacters] = useState(data);
+  const [loading,setloading] = useState(true);
 
+ 
 
   useEffect(() => {
     var myHeaders = new Headers();
@@ -71,9 +73,12 @@ function App() {
       .then(result => {
          setData(result);
          updateCharacters(result);
+         setloading(false);
         })
       .catch(error => console.log('error', error));
-
+      
+     
+    
   },[]);
 
 
@@ -109,51 +114,58 @@ function App() {
     updateCharacters(items);
 
   }
-
+  
 
   return (
     <div className="App">
-      <Navbar/>
+      {
+        loading ? <div> <div id="overlayer"></div>
+        <span class="loader">
+          <span class="loader-inner"></span>
+        </span> </div> :<div><Navbar/>
 
-      <div className="container mt-5">
+<div className="container mt-5">
 
-        <form class="d-flex ms-5 me-4 ms-5 search">
+  <form class="d-flex ms-5 me-4 ms-5 search">
 
-              <input class="form-control me-2" type="search"  aria-label="Search" 
-              placeholder="Search name" 
-              value={search}
-              onChange={(e)=>{handleChange(e)}}/>
-              
-              <button class="btn btn-outline-success" type="submit">Search</button>
-        </form>
+        <input class="form-control me-2" type="search"  aria-label="Search" 
+        placeholder="Search name" 
+        value={search}
+        onChange={(e)=>{handleChange(e)}}/>
+        
+        <button class="btn btn-outline-success" type="submit">Search</button>
+  </form>
 
-            <div className="container boxes" style={{width:"80%", alignItems:"center"}}>
+      <div className="container boxes" style={{width:"80%", alignItems:"center"}}>
 
-              <DragDropContext onDragEnd={handleDrag}>
+        <DragDropContext onDragEnd={handleDrag}>
 
-                <Droppable droppableId="characters">
+          <Droppable droppableId="characters">
 
-                  {(provided)=>(
-                      <div id="characters" className="row m-5 mt-5"  
-                      style={{alignItems:"center"}} 
-                      {...provided.droppableProps} 
-                      ref={provided.innerRef}>
-                      
-                      <RepoList repos={characters}/>
+            {(provided)=>(
+                <div id="characters" className="row m-5 mt-5"  
+                style={{alignItems:"center"}} 
+                {...provided.droppableProps} 
+                ref={provided.innerRef}>
+                
+                <RepoList repos={characters}/>
 
-                      {provided.placeholder}
+                {provided.placeholder}
 
-                    </div>
-                  )}
-
-                  
-                </Droppable>
-
-              </DragDropContext>
-              
               </div>
-              
-          </div>
+            )}
+
+            
+          </Droppable>
+
+        </DragDropContext>
+        
+        </div>
+        </div>
+    </div>
+      }
+      
+     
       </div>
   );
 }
